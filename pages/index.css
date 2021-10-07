@@ -1,0 +1,29 @@
+@import url(../styles/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__link/_active/header__link_active.css);
+@import url(../blocks/header/__nav-langs/header__nav-langs.css);
+
+@import url(../blocks/logo/logo.css);
+
+@import url(../blocks/trips/trips.css);
+@import url(../blocks/trips/__title/trips__title.css);
+@import url(../blocks/trips/__subtitle/trips__subtitle.css);
+@import url(../blocks/trips/__secondsubtitle/trips__secondsubtitle.css);
+@import url(../blocks/trips/__imgtitle/trips__imgtitle.css);
+@import url(../blocks/trips/__img/trips__img.css);
+@import url(../blocks/trips/__article/trips__article.css);
+@import url(../blocks/trips/__paragraph/trips__paragraph.css);
+
+@import url(../blocks/trips/__lead/trips__lead.css);
+@import url(../blocks/trips/__lead/__lead-item/trips__lead-item.css);
+@import url(../blocks/trips/__lead/__lead-number/trips__lead-number.css);
+
+
+
+
+
+

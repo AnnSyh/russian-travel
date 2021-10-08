@@ -1,0 +1,15 @@
+.places__title {
+    font-family: 'Inter-Bold', sans-serif;
+    font-size: 2rem;
+    line-height: 2.188rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .places__title {
+        font-size: 4.5rem;
+        line-height: 4.75rem;
+    }
+}

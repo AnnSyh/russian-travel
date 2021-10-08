@@ -1,0 +1,22 @@
+.gallery {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: grid;
+    gap: 1rem;
+}
+
+@media screen and (min-width: 321px) {
+    .gallery {
+        grid-template-columns: repeat(2, calc(100% / 2 - 12px));
+    }
+}
+@media screen and (min-width: 1024px) {
+    .gallery {
+        grid-template-columns: repeat(3, calc(100% / 3 - 12px));
+    }
+}
+@media screen and (min-width: 1280px) {
+    .gallery {
+        grid-template-columns: repeat(4, calc(100% / 4 - 12px));
+    }
+}

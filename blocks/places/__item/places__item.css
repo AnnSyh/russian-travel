@@ -1,0 +1,25 @@
+.places__item {
+    display: grid;
+
+    row-gap: 3rem;
+    column-gap: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .places__item {
+        grid-template-columns: minmax(auto, 340px) auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .places__item {
+        grid-template-columns: minmax(auto, 440px) auto;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .places__item {
+        grid-template-columns: minmax(auto, 460px) auto;
+    }
+}

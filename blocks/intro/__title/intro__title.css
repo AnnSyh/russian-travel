@@ -1,0 +1,14 @@
+.intro__title {
+    font-family: 'Inter-Bold', sans-serif;
+    font-size: 2rem;
+    line-height: 2.188rem;
+    margin-top: 0;
+    margin-bottom: 2.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .intro__title {
+        font-size: 3.375rem;
+        line-height: 3.625rem;
+    }
+}

@@ -1,28 +1,30 @@
 .header {
     display: flex;
-    max-width: 1184px;
+    max-width: 1280px;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-    margin: 1.75rem 1rem 3.5rem 1rem;
-    font-size: 1.5rem;
+    margin: 1.75rem auto 3.5rem auto;
+
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 @media screen and (min-width: 768px) {
     .header {
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;;
+        font-size: 1.5rem;
+        line-height: 1.75rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;;
     }
 }
 @media screen and (min-width: 1024px) {
     .header {
-        margin-left: 3rem;
-        margin-right: 3rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
 }
-@media screen and (min-width: 1280px) {
-    .header {
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
+

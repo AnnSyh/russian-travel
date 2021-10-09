@@ -1,8 +1,9 @@
 .page {
     font-family: 'Inter-Regular', sans-serif;
     font-size: 1rem;
-    max-width: 1184px;
+    max-width: 1280px;
     margin: 0 auto;
     background-color: #2A2C2F;
     color: #fff;
+    overflow-x: hidden;
 }

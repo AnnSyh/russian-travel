@@ -1,0 +1,9 @@
+.page__footer {
+    margin-top: 3rem;
+    margin-bottom: 20px;
+}
+@media screen and (min-width: 321px){
+    .page__footer {
+        margin-top: 4.75rem;
+    }
+}

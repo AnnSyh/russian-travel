@@ -1,3 +1,11 @@
 .lead__img {
-    width: 100%;
+    width: calc(100% + 2*1.5rem);
+    margin-left: -1.5rem;
+}
+
+@media screen and (min-width: 769px){
+    .lead__img{
+        width: 100%;
+        margin-left: 0;
+    }
 }

@@ -1,13 +1,12 @@
 .gallery {
-    margin-top: 100px;
-    margin-bottom: 100px;
     display: grid;
-    gap: 1rem;
+    gap: 12px;
 }
 
 @media screen and (min-width: 321px) {
     .gallery {
         grid-template-columns: repeat(2, calc(100% / 2 - 12px));
+        gap: 19px;
     }
 }
 @media screen and (min-width: 1024px) {

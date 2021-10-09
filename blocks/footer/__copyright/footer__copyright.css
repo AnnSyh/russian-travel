@@ -1,0 +1,13 @@
+.footer__copyright {
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width:744px) {
+
+    .footer__copyright {
+        width: auto;
+        margin: 0;
+    }
+}

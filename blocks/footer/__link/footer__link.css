@@ -1,0 +1,22 @@
+.footer__link {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    font-size: 24px;
+    line-height: 2.3;
+}
+
+@media screen and (min-width: 400px) {
+    .footer__link {
+        font-size: 1rem;
+        line-height: 1rem;
+        margin-right: 1.125rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 744px) {
+    .footer__link {
+        margin-bottom: 0;
+    }
+}

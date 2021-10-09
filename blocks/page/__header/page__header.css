@@ -1,0 +1,9 @@
+.page__header {
+    margin: 1.75rem auto 3rem auto;
+}
+
+@media screen and (min-width: 1280px) {
+    .page__header {
+        margin: 1.75rem auto 3.5rem auto;
+    }
+}

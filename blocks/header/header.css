@@ -4,11 +4,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-    margin: 1.75rem auto 3.5rem auto;
-
     font-size: 1.125rem;
     line-height: 1.25rem;
-
     padding-left: 1rem;
     padding-right: 1rem;
 }

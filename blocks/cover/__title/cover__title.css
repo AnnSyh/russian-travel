@@ -9,8 +9,8 @@
     z-index: 1;
 }
 
-@media screen and (min-width:321px) {
-    .cover__subtitle {
+@media screen and (min-width:767px) {
+    .cover__title {
         line-height: 4.75rem;
         font-size: 4.5rem;
     }

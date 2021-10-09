@@ -1,0 +1,9 @@
+.content__intro {
+    margin-top: 3.813rem;
+    margin-right: auto;
+}
+@media screen and (min-width: 321px) {
+    .content__intro {
+        margin-top: 5.813rem;
+    }
+}

@@ -3,3 +3,7 @@
     text-decoration: none;
     margin-left: 16px;
 }
+
+.header__link:hover{
+    text-decoration: underline;
+}

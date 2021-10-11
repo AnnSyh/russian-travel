@@ -23,3 +23,8 @@
         margin-bottom: 3.5rem;
     }
 }
+@media screen and (min-width: 1280px){
+    .lead__subtitle {
+        margin-bottom: 64px;
+    }
+}

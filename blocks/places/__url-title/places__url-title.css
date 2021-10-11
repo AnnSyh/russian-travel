@@ -7,3 +7,9 @@
     margin-bottom: 19px;
     letter-spacing: 2px;
 }
+@media screen and (min-width: 1280px) {
+    .places__url-title {
+        margin-bottom: 10px;
+    }
+
+}

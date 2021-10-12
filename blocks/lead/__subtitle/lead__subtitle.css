@@ -5,7 +5,8 @@
     max-width: 640px;
     margin: 1rem auto 2.5rem auto;
 }
-@media screen and (min-width: 321px){
+
+@media screen and (min-width: 321px) {
     .lead__subtitle {
         font-size: 1.875rem;
         line-height: 2.25rem;
@@ -13,17 +14,20 @@
         margin-bottom: 4rem;
     }
 }
-@media screen and (min-width: 768px){
+
+@media screen and (min-width: 768px) {
     .lead__subtitle {
         margin-bottom: 3.7rem;
     }
 }
-@media screen and (min-width: 1024px){
+
+@media screen and (min-width: 1024px) {
     .lead__subtitle {
         margin-bottom: 3.5rem;
     }
 }
-@media screen and (min-width: 1280px){
+
+@media screen and (min-width: 1280px) {
     .lead__subtitle {
         margin-bottom: 64px;
     }

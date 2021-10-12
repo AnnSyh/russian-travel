@@ -1,15 +1,30 @@
 .content__gallery {
-    margin-top: 65px;
-    margin-bottom: 65px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 @media screen and (min-width: 768px) {
     .content__gallery {
         margin-top: 90px;
         margin-bottom: 90px;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
     }
 
 }
+
+@media screen and (min-width: 1024px) {
+    .content__gallery {
+        margin-top: 95px;
+        margin-bottom: 95px;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+}
+
 @media screen and (min-width: 1280px) {
     .content__gallery {
         margin-top: 98px;

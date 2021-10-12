@@ -1,15 +1,21 @@
 .content__intro {
     margin-top: 64px;
     margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 @media screen and (min-width: 768px) {
     .content__intro {
         margin-top: 88px;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
     }
 }
 @media screen and (min-width: 1024px) {
     .content__intro {
         margin-top: 92px;
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
 }

@@ -1,11 +1,5 @@
 .places__img {
-    width: calc(100% + 2*1rem);
-    margin-left: -1rem;
+    width: 100%;
+   height: auto;
 }
 
-@media screen and (min-width: 321px) {
-    .places__img {
-        width: 100%;
-        margin-left: 0;
-    }
-}

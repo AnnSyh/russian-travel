@@ -5,11 +5,18 @@
     line-height: 2.188rem;
     margin-top: 0;
     margin-bottom: 0;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
-@media screen and (min-width: 768px){
+
+@media screen and (min-width: 550px){
     .places__title {
         font-size: 42px;
         line-height: 46px;
+
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 

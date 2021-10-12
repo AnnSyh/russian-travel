@@ -13,8 +13,15 @@
 @media screen and (min-width: 550px) {
     .places__item {
         column-gap: 2rem;
-        grid-template-columns: minmax(340px, 340px) auto;
+        grid-template-columns: minmax(240px, 340px) auto;
         margin-bottom: 45px;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .places__item {
+        grid-template-columns: 340px auto;
     }
 }
 
@@ -23,6 +30,8 @@
         column-gap: 2.5rem;
         grid-template-columns: minmax(auto, 432px) auto;
         margin-bottom: 4rem;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 

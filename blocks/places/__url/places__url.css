@@ -1,4 +1,14 @@
 .places__url {
     display: flex;
     flex-direction: column;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media screen and (min-width: 768px){
+    .places__url {
+        padding-left: 0;
+        padding-right: 0    ;
+    }
 }

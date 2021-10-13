@@ -1,7 +1,12 @@
 .page__header {
-    margin: 1.75rem auto 3rem auto;
+    margin: 1rem auto 3rem auto;
 }
 
+@media screen and (min-width: 321px) {
+    .page__header {
+        margin-top: 1.75rem;
+    }
+}
 @media screen and (min-width: 1280px) {
     .page__header {
         margin: 1.75rem auto 3.5rem auto;
